@@ -1,0 +1,19 @@
+
+---
+
+### **requirements.txt**
+```text
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.0.0
+tokenizers>=0.13.0
+accelerate>=0.20.0
+bitsandbytes>=0.39.0
+wandb
+numpy
+scipy
+tqdm
+pandas
+scikit-learn
+regex
+ftfy
