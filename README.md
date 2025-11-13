@@ -2,7 +2,7 @@
 
 This repository provides an environment and setup to **reproduce** the experiments from the paper:  
 > **“From Explicit CoT to Implicit CoT: Learning to Internalize CoT Step by Step” (Deng et al., 2024)**  
-> [arXiv:2404.05866](https://arxiv.org/abs/2404.05866)
+> [arXiv:2405.14838](https://arxiv.org/abs/2405.14838)
 
 The goal is to train models that can **internalize the reasoning process** —  
 gradually transitioning from *explicit* Chain-of-Thought (CoT) supervision to *implicit* CoT generation,  
