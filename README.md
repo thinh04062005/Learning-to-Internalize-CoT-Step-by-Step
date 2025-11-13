@@ -17,7 +17,7 @@ This encourages the model to internalize reasoning behaviors while retaining str
 
 This repository provides:
 - A minimal environment setup to run or extend the experiments.  
-- Easy installation via `requirements.txt` or `environment.yml`.  
+- Easy installation via `requirements.txt` or `environment.yml.  
 - Compatibility with the official implementation.
 
 ---
@@ -26,10 +26,17 @@ This repository provides:
 
 Clone this repository:
 ```bash
-git clone https://github.com/<yourname>/Internalize-CoT-Reimplementation.git
-cd Internalize-CoT-Reimplementation
+git clone https://github.com/thinh04062005/Learning-to-Internalize-CoT-Step-by-Step.git
+cd Learning-to-Internalize-CoT-Step-by-Step
 
+## Setup Environment
+
+### Using pip
 python -m venv venv
 source venv/bin/activate        # Windows: .\venv\Scripts\activate
 pip install --upgrade pip
 pip install -r requirements.txt
+
+### Using conda
+conda env create -f environment.yml
+conda activate internalize-cot
